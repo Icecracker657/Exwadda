@@ -1,0 +1,21 @@
+project_id = "ruhebxgmdbbmnkfhsqhc"
+
+# Public functions — called before the user has a session (signup flow)
+[functions.send-otp]
+verify_jwt = false
+
+[functions.verify-otp]
+verify_jwt = false
+
+# Internal / webhook functions
+[functions.send-transaction-email]
+verify_jwt = false
+
+[functions.approve-transaction]
+verify_jwt = false
+
+[functions.daraja-stk-push]
+verify_jwt = false
+
+[functions.daraja-callback]
+verify_jwt = false
